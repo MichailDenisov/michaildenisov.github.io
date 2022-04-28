@@ -1,0 +1,44 @@
+Селектор тегов 
+ p {
+    color: red; 
+} Селектор классов
+.prosto-text {
+   color: red; 
+   background-color: yellow; 
+   font-weight: bold; 
+}
+Селектор идентификаторов 
+#unikalnii-tag {
+    padding: 100px; 
+    margin: 100px;
+}
+Селектор атрибутов
+[data-p="text"] {
+   font-weight: bold;
+   font-style: italic;
+   background-color: goldenrod;
+   color: brown;
+}
+Селектор потомков
+div#paragraph p.note {
+   color: blue; 
+   background-color: yellowgreen;
+}Селектор дочерних элементов 
+p.note > b {
+   color:green; 
+}
+Селектор псевдоэлементов 
+ul li:first-child {
+    background-color: green;
+}
+ul li:last-child {
+    background-color: blueviolet;
+}
+ul li:nth-child(4) {
+    background-color: goldenrod;
+}
+Селектор псевдоклассов 
+ul li:hover {
+    background-color: aquamarine;
+    color: tomato;
+}
