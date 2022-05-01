@@ -1,19 +1,29 @@
-.imia {
-    color: rgb(255, 0, 0);
+.fish {   
+     color: rgb(99, 56, 56);
     font-weight: bolder;
+
 }
 
-#p1 {
-    color: rgb(0, 255, 21);
+#h1 {
+    color: rgb(234, 0, 255);
 }
 
-#p2 {
+#h2 {
     color: rgb(128, 0, 111);
 }
-
-#p3 {
-    color: blue;
-    padding: 100px; 
-    margin: 10px;
+#main {
+    background-color: antiquewhite;
+    border: 50px;
+    margin: 40px;
+    padding: 20px;
 }
 
+#span {
+    color: rgb(17, 17, 177);
+     
+    margin: 20px;
+}
+#p {
+    background-color: rgb(206, 187, 20);
+}
+#lorem {background-color: rgb(76, 230, 89);}
