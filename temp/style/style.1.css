@@ -1,32 +1,44 @@
 .heriy {
-    width: 500pt;color:gold; 
-    height: 300px;
-    color: rgb(206, 43, 57);
-    margin: 100px;color: antiquewhite;
-    border: 200px;color: rgb(235, 27, 27);
-    padding: 100px;color: #000;
+    width: 500px; 
+    height: 30px;
+    margin: 50px;
+    border: 200px;
+    padding: 100px;background-color: rgb(226, 43, 134);
     
 }
 .heriy__va {
-    
-    display:block;
-    padding: 50px;
-   margin: 100px;
-    border-bottom: 10px;
+        padding: 100px;px;background-color: blue;
+   margin-bottom: 50px;color: blueviolet ;
+    border-top: 100px;
     background-color: 
-    rgb(209, 230, 20);
+    rgb(230, 132, 20);
 }
 .nav {
-    margin-top: 10px;color: rgb(194, 54, 54);
-    border: 10px;
+    height: 50px;
+    margin: 10px;
+    border: 100px;
+    padding: 100px;
     background-color: blueviolet; 
-    color: rgb(37, 25, 27);
+    display: flex;
+    justify-content: space-between;
+    
+
     }
 .nav__li {
-    height: 100px;
-    width: 100px;
+    height: 90px;
+    width: 90px;
     background-color: aqua;
-    display: inline-flex;
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-start;
+
+    
+    
+
+    
+    
+    
+    
     
      
 
