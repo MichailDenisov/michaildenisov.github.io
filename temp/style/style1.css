@@ -4,7 +4,6 @@ body {
 
 .divays {
     background:linear-gradient(217deg, rgba(95, 27, 173, 0.8), rgba(226, 230, 16, 0) 70.79%);
-      
     width: 300px; 
     padding: 60px;
     border: 50px solid rgb(0, 255, 204);
@@ -14,22 +13,21 @@ body {
        
 }
 .picture {
-  font-family:Arial, Helvetica, sans-serif;
-  font-size: 50px;
-  font-style: italic;
-  font-weight: 200;
-  color: rgb(149, 85, 246);
-  text-decoration:solid;
-  text-transform:unset;
-  text-align:justify;
-  text-shadow: 3px 3px rgb(27, 114, 245);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 200;
+    color: rgb(149, 85, 246);
+    text-decoration:solid;
+    text-transform:unset;
+    text-align:justify;
+    text-shadow: 3px 3px rgb(27, 114, 245);
 
 font-family: 'Gilroy' !important;
 }
 .picture__p {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 35px;
-    font-style:initial;
     text-align:center;
     font-style:oblique;
     color: rgb(219, 110, 7);
@@ -39,25 +37,25 @@ font-family: 'Gilroy' !important;
     text-shadow: 3px 3px rgb(99, 96, 8);
 }
 .picture__pa {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 30px;
-  text-align:end;
-  font-style: italic;
-  color: rgb(215, 42, 210);
-  font-weight:calc();
-  text-decoration:dotted;
-  text-transform: lowercase;
-  text-shadow: 3px 3px rgb(64, 8, 99);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    text-align:end;
+    font-style: italic;
+    color: rgb(215, 42, 210);
+    font-weight:calc();
+    text-decoration:dotted;
+    text-transform: lowercase;
+    text-shadow: 3px 3px rgb(64, 8, 99);
 
 }
 .picture__pe {
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 20px;
-  color: red;
-  font-weight: bold;
-  font-style: italic;
-  text-decoration: underline;
-  text-transform: uppercase;
-  text-shadow: 3px 3px rgb(60 255 0);
-  text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: 3px 3px rgb(60 255 0);
+    text-align: center;
 }
