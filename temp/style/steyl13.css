@@ -1,0 +1,69 @@
+body {
+    background-color:rgb(192, 233, 226);
+}
+.conteiner {
+    display: block;
+    left: 100px;
+    width: 510px;
+    height:  -10px;
+    bottom: 100px;
+    margin: 10px;
+    background-repeat: repeat-x; 
+    background-color: blueviolet;
+
+    
+    }
+    .List {
+        
+        font-size: 20px;
+        font-style: italic;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    .List_item:nth-child(3) {
+        color: #df8a68;
+        font-size: 35px;
+    }
+    .List_item:nth-child(4):hover{
+        background: rgb(21, 15, 145);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(116,9,121,1) 35%, rgba(0,212,255,1) 100%);
+        font-style:italic ;
+        color: azure;
+        transform: scaleX(1.0);
+    }
+    .List_item:nth-last-of-type(1) {
+        padding: 15px;
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,92,121,0.7399334733893557) 35%, rgba(0,212,255,1) 100%);
+        font-style: initial;
+         
+    }
+    .List_item:nth-child(2) {
+                font-size: 25px;
+                /* Created with https://www.css-gradient.com */
+    background: #6A030C;
+    background: -webkit-linear-gradient(top, #6A030C, #676BC2);
+    background: -moz-linear-gradient(top, #6A030C, #676BC2);
+    background: linear-gradient(to bottom, #6A030C, #676BC2);
+    }
+    li::after {
+        content: ' \00A7';
+        padding-right: 7px;
+        color: #fa0060;
+    }
+    li::before {
+        content: ' \0152';
+        padding-right: 7px;
+        color: #d0fc0e;
+    }   
+    @media (min-width: 250px ) and (max-width: 768px ) {
+
+        .List_section {
+            background-color:#68df86; 
+            font-size: 50px;
+            width: 30em;
+            height:  300px;
+            }
+        
+        }
+     
+    

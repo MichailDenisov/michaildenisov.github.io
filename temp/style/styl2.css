@@ -5,7 +5,7 @@
     width: 500px;
     height: auto;
     padding: 113px;
-    background-color: greenyellow;
+    background-color: rgb(255, 217, 47);
  }
 
  .opacity-block__text {
@@ -38,7 +38,7 @@
      align-items: center;
      margin: 300px;
      padding: 30px;
-     background-color: rgb(247, 231, 16);
+     background-color: rgb(168, 158, 97);
      width: 500px;
      height: 500px;
  }
