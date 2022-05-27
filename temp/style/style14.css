@@ -1,0 +1,75 @@
+:root {
+    
+    --color-font-primary: #f8570c;
+    --font-size-primary:50px;
+    --shadow-primary: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    --background-color-primary:rgba(32, 115, 240, 0.966);
+    --font-family-primary: Arial, Gadget, sans-serif;
+    --bockgraund-linear-gradient-primary: rgba(210, 230, 30, 0.5);
+     
+    
+
+}
+div { font-family: var(--font-family-primary);
+     color: var(--color-font-primary);
+    font-size: var(--font-size-primary);
+    box-shadow: var(--shadow-primary);
+    background-color:var(--background-color-primary);
+    height: 280px;
+    width: 500px;
+}
+.blok {
+    background-color: var(--bockgraund-linear-gradient-primary);
+    box-shadow: var(--shadow-primary);
+    height: 30px;
+    padding: 50px;
+    margin: 10px;
+    
+}
+.zagolovok {
+   color: var(--color-font-primary);
+}
+/* Блок относится к свойтвам квадрата */
+.section1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    margin-bottom: 40px;
+    height: 300px;
+    width: 300px;
+    margin: 100px;
+    padding: 30px;
+    background-color: var(--bockgraund-linear-gradient-primary);
+    border-radius: 10%;
+}
+.section2 {
+   display: flex;
+   justify-content: flex-start;
+    
+    margin-bottom: 40px;
+    height: 100px;
+    width: 200px;
+    margin: 100px;
+    padding: 80px;
+    background-color: var(--bockgraund-linear-gradient-primary);
+    border-radius: 10%;
+
+
+}
+label {
+    margin-bottom: 50px ;
+}
+.button {
+   
+    padding-left: 90px; 
+  }
+  
+button {
+    
+    margin-top: .10em;
+  }
+  body {
+      display:flex ;
+      flex-direction: row;
+    
+  }

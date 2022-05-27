@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style14.css">
+    <title>Domashka 14</title>
+</head>
+    <h1 class="zagolovok">Domashka 14</h1>
+<body>
+    <div>
+    <p class="blok">Текст</p>
+    </div>
+    <br>
+    <form action="/" method="get">
+        <!--Первая форма-->    
+        <section>
+            <fieldset class="section1">
+                <legend>Aдрес</legend>
+                <label for="street">
+                    Укажите улицу
+                    <input type="text" id="street" placeholder="yлица" name="steet">
+                </label>
+                
+                <label for="place">
+                    Укажите дом
+                    <input type="text" id="place" placeholder="дом" name="place">
+                </label>
+                
+                <label for="postcode">
+                    Укажите индекс
+                    <input type="password" id="postcode" placeholder="индекс" name="postcode">
+                </label>
+
+                <label for="tel">
+                    Телефон
+                    <input type="tel" id="phone" placeholder="+7 (920) 000-00-00" name="phone">
+                </label>
+
+                <label for="place">
+                    Емэйл
+                    <input type="text" id="mail" placeholder="емэйл" name="mail">
+                </label>
+                
+                  
+                </fieldset>
+                </section>
+                
+               
+                <!--Вторая форма-->
+            <section>
+            <fieldset class="section2">
+                <legend>Укажите ваш город</legend>
+                <h3>Аккунт</h3>
+            <label for="contactChoice1">
+                Закрытый
+                <input type="radio" id="contactChoice1" name="account" value="close" checked>
+            </label>
+
+            <label for="contactChoice2">
+                Открытый
+                <input type="radio" id="contactChoice2" name="account" value="open">
+            </label>
+
+            <h3>Удобный способ контакта</h3>
+            <label for="scales1">
+                Емэйл
+                <input type="checkbox" id="scales1" name="check-mail">
+            </label>
+            <label for="scales2">
+                Телефон
+                <input type="checkbox" id="scales2" name="check-phone">
+            </label>
+            <br>
+            <label>
+            <select name="list-sity"> 
+                <option selected value="Пермь"> Пермь</option>
+                <option value="Ярославль"> Ярославль</option>
+                <option value="Мoсква"> Москва</option>
+            </label>
+
+                    <textarea name="question" placeholder="Ваш вопрос здесь"></textarea>
+                    
+                    <button type="submit">Отправить</button>
+
+            </fieldset>
+        </section>
+    </form>
+    </body>
+    </html>
+ 

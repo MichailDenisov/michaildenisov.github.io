@@ -1,0 +1,60 @@
+(function () {
+    const host = /\.webinar\.ru$/.test(window.location.host)
+        ? 'events.webinar.ru'
+        : window.location.host;
+
+    if (!window.WEBINAR_CONFIG) {
+        window.WEBINAR_CONFIG = {};
+    }
+
+    window.WEBINAR_CONFIG.API_URL = 'https://' + host + '/api';
+    window.WEBINAR_CONFIG.MAIN_HOST = 'events.webinar.ru';
+
+    window.WEBINAR_CONFIG.DEFAULT_HOSTS = ['events.webinar.ru'];
+
+    window.WEBINAR_CONFIG.API_LIGHT_URL = 'https://' + host + '/api/light';
+
+    window.WEBINAR_CONFIG.UPLOAD_URL = 'https://events-storage.webinar.ru/api-storage';
+
+    window.WEBINAR_CONFIG.USER_CONTENT_HOST = 'events-usercontent.webinar.ru/api-storage';
+    window.WEBINAR_CONFIG.HLS_FILES_URL = 'events-delivery-files.webinar.ru/streamer';
+    window.WEBINAR_CONFIG.HLS_RECORDS_URL = 'events-delivery-records.webinar.ru/streamer';
+
+    window.WEBINAR_CONFIG.ACTIVE_SPEAKER_MEDIA_SERVER = 'live-edge-11.webinar.ru';  
+
+    window.WEBINAR_CONFIG.WEBRTC_TEST_HOSTS = [
+        'live-webrtc-sd.webinar.ru',       
+        'live-webrtc-m9.webinar.ru'      
+         
+    ];
+
+    window.WEBINAR_CONFIG.ORGANIZATIONS_MAIN_DOMAIN = 'webinar.ru';
+
+    window.WEBINAR_CONFIG.MOBILE_API_HOST = 'mobile-api.webinar.ru';
+
+    window.WEBINAR_CONFIG.INTERCOM_TOKEN = 'eb4dv2rj';
+    window.WEBINAR_CONFIG.MIXPANEL_TOKEN = '0ff52acccc4445cd1afa75416a39d7de';
+    window.WEBINAR_CONFIG.HOTJAR_COURSES_TOKEN = '957419';
+    window.WEBINAR_CONFIG.HOTJAR_RECORD_TOKEN = '628206';
+    window.WEBINAR_CONFIG.HOTJAR_FIRST_MEETING_TOKEN = '430088';
+    window.WEBINAR_CONFIG.FULLSTORY_ORG = 'WZ95E';
+    window.WEBINAR_CONFIG.WOOTRIC_TOKEN = 'NPS-ce6bc9f2';
+
+    window.WEBINAR_CONFIG.MIRO_CLIENT_ID = '3074457347855247773';
+    window.WEBINAR_CONFIG.DADATA_TOKEN = 'f6a01dd8fee1a294cf261a6c26bf8d4b9d9cb406';
+    window.WEBINAR_CONFIG.GOOGLE_MAPS_TOKEN = 'AIzaSyAyn9JrBYYvl46A5DSkFkRS5K3zmHOcjsQ';
+
+    window.WEBINAR_CONFIG.OAUTH_VK_APP_ID = '5005271';
+    window.WEBINAR_CONFIG.OAUTH_VK_APP_VERSION = '5.37';
+    window.WEBINAR_CONFIG.OAUTH_FACEBOOK_APP_ID = '555590477912885';
+    window.WEBINAR_CONFIG.OAUTH_GOOGLE_APP_ID =
+        '653382174751-f1f9sbgej6fkvj499oeee0jci5455g92.apps.googleusercontent.com';
+
+    window.WEBINAR_CONFIG.GOOGLE_COUNTER_ID = 'UA-6354589-1';
+    window.WEBINAR_CONFIG.YANDEX_COUNTER_ID = '38578180';
+
+    window.WEBINAR_CONFIG.ONBOARDING_PRESENTATION_URI =
+        '//events.webinar.ru/images/onboarding_presentation/onboarding_presentation.pdf';
+
+    window.WEBINAR_CONFIG.PROCTOR_EDU_SERVER_URL = 'https://gki.proctoring.online';        
+})();
