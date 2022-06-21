@@ -1,21 +1,21 @@
 @font-face {
     font-family: 'Gilroy';
-    src: url("../fonts/font.css");
-    src: local("Gilroy Regular"), local("Gilroy-Regular"), url("../fonts/font.css") format("embedded-opentype"), url("../fonts/Gilroy-Regular.woff2") format("woff2"), url("../fonts/Gilroy-Regular.woff") format("woff"), url("../fonts/font.css") format("truetype");
+    src: url("../fonts/Gilroy-Regular.eot");
+    src: local("Gilroy Regular"), local("Gilroy-Regular"), url("../fonts/Gilroy-Regular.eot?#iefix") format("embedded-opentype"), format("woff2"), url("../fonts/Gilroy-Regular.woff") format("woff"), url("../fonts/Gilroy-Regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'Gilroy';
   src: url("../fonts/Gilroy-Bold.eot");
-  src: local("Gilroy Bold"), local("Gilroy-Bold"), url("../fonts/Gilroy-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Bold.woff2") format("woff2"), url("../fonts/Gilroy-Bold.woff") format("woff"), url("../fonts/Gilroy-Bold.ttf") format("truetype");
+  src: local("Gilroy Bold"), local("Gilroy-Bold"), url("../fonts/Gilroy-Bold.eot?#iefix") format("embedded-opentype"), format("woff2"), url("../fonts/Gilroy-Bold.woff") format("woff"), url("../fonts/Gilroy-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
     font-family: 'Gilroy';
   src: url("../fonts/Gilroy-Medium.eot");
-  src: local("Gilroy Medium"), local("Gilroy-Medium"), url("../fonts/Gilroy-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Medium.woff2") format("woff2"), url("../fonts/Gilroy-Medium.woff") format("woff"), url("../fonts/Gilroy-Medium.ttf") format("truetype");
+  src: local("Gilroy Medium"), local("Gilroy-Medium"), url("../fonts/Gilroy-Medium.eot?#iefix") format("embedded-opentype"), format("woff2"), url("../fonts/Gilroy-Medium.woff") format("woff"), url("../fonts/Gilroy-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
@@ -118,7 +118,8 @@ img {
     height: auto;
     margin: 0 auto;
     padding: 0 10px;
-    width: 100%;
+     width: 100%; 
+
  } 
 @media (min-width: 375px) {
     .container {
@@ -128,7 +129,8 @@ img {
 @media (min-width: 992px) {
     .container {
         padding: 0;
-        width: 941px;
+        /* width: 941px; */
+        width: 943.61px;
     }
 }
 .menu_nav {
@@ -178,7 +180,6 @@ img {
     -ms-flex-align: start;
     align-items: flex-start;
     padding: 0 28px 68px;
-    list-style: none;   
  }
  
 @media (min-width: 768px) {
@@ -284,10 +285,6 @@ img {
     bottom: 0;
     right: 0;
     transform: translate(27px, -112px) rotate(90deg);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 34px;
-    line-height: 41px;
 
 }
 
@@ -301,7 +298,11 @@ img {
     color: var(--color-font-primary-mobile);
 }
 .nav__link {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 42px;
     color: var(--color-font-secondary);
+    text-transform: uppercase;
 }
 
 .nav__link:first-child {
@@ -803,8 +804,7 @@ img {
 
 @media (min-width: 992px) {
     .skills__list {
-        margin: 0 -96px;  
-        /* 100px */
+        margin: 0 -100px;  
     }
 }
 
@@ -823,8 +823,8 @@ img {
 }
  @media (min-width: 768px) {
     .skills__item {
-        /* margin: 0 38px 83px; */
-        margin: 0 39px 87px
+         margin: 0 38px 83px; 
+        /* margin: 0 39px 87px */
     }
 }
 .skills__img {
