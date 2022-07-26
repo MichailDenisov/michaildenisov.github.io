@@ -123,4 +123,7 @@ h3::first-letter {
 	}
 	/* h3 {letter-spacing: 2pt;} */
 	.catalog p::first-letter {vertical-align: text-top;}
+ol {
+	list-style-type: upper-roman;
+}
 
