@@ -1,69 +1,211 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<meta name="description" content="Cyши-бap 
-		Йокогама. Сашими, суши, роллы, напитки">
-		<meta name="keywords"
-		content="cyши-бap, Йокогама, сашими, суши, ролл">
-		<meta name="author" соntеnt="Михаил">
-		<meta name="generator" соntеnt="Visual Studio Code">
-		<title> Йокогама: суши бар </title>
-	<link href="styles/2.1.css" rel="stylesheet"
-	type="text/css">
-	</head>
-	<body>
-		<header> <!--&laquo &raquo--> 
-		<h1>Суши-бар <em>&laquo;Йокогама&raquo;</em></h1>
-		<p class="picture">
-		<img src="images/sushi.jpg" title="Суши"></p>
-		</header>
-		<nav>
-			<div><a href="#">Глaвнaя</a></div> 
-			<div><a href="pages/sashimi.html">Caшими</a> 
-			</div> 
-			<div><a href="pages/sushi.html">Cyши</a></div> 
-			<div><a href="pages/rolls.html">Poллы</a> 
-			</div> 
-			<div><a href="pages/pricelist.html">
-			Прайс-лист</a></div> 
-		</nav>
-		<main>
-		<p>У нас вы найдете:</p>
-		<ul>
-			<li>сашими,</li>
-			<li>суши,</li>
-			<li>poллы,</li>
-			<li>coycы,</li>
-			<li><strong>гopячиe блюдa</strong>,</li> 
-			<li>также - безалкогольные напитки
-			<img src="images/drink.jpg">:
-				<ul> 
-					<li>чaй,</li>
-					<li>кoфe,</li>
-					<li>мaтe.</li> 
-				</ul>
-			</li> 
-		</ul>
-		<div>Участвуйте в нашей рекламной акции!</div>
-		<ol>
-		<li>Посетите наш суши-бар между 16:00
-		и 19:00.</li>
-		</ol>
-			<div class="advertising">
-				<div>Время действительно только для будних
-				дней.</div>
-				<div>В выходные &mdash; с 14:00 до 20:00.</div>
-			</div>
-			<ol start="2">
-				<li>Купите три суши ипи ролла. </li>
-				<li>Получите четвертый <span class="bigger"> в подарок </span>!</li>
-			</ol>
-		</main>
-		<footer>
-			<p class="greeting">Ждем вас!</p>
-			<address>Наш адрес:ул Зеленая,17.</address>
-			<p>&copy;читатели книги&laquo;HTML и CSS&raquo; <br>.Все права защищены. </p>
-		</footer>
-	</body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/styledip.css">
+    <link rel="shortcut icon" href="images/favicon(3).ico" >
+    <link rel="text" href="fonts/font.css">
+    <title>Диплом</title>
+</head>
+<body class="page-index" id="body">
+    <header class="header" id="header">
+        <div class="container">
+            <nav class="menu_nav" id="menu_nav">
+                <button class="nav__close" id="navClose"></button>
+                <div class="nav__lang">
+                    <a class="nav__link" href="#">RU</a>
+                    <a class="nav__link active" href="#">ENG</a>
+                </div>
+                <ul class="menu_ul">
+                 <li class="menu_item active">
+                    <a href="#home">Home</a> <!--about me, ,Portfolio,Contacts-->
+                 </li>
+                 <li class="menu_item">
+                     <a href="#about">About me</a>
+                 </li>
+                 <li class="menu_item">
+                     <a href="#skills">Skills</a>
+                 </li>
+                 <li class="menu_item">
+                     <a href="#portfolio">Portfolio</a>
+                 </li>   
+                 <li class="menu_item">
+                     <a href="#footer">Contacts</a>
+                 </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main" id="main">
+        <section class="banner">
+        <div class="container">
+            <button class="banner__button" id="navOpen">
+                <span></span><span></span><span></span></button>
+            <div class="banner__content">  
+            <h2 class="banner__name">
+                Denis
+                <br>
+                 Novik
+                </h2>
+                <div class="banner__position">
+                    UX | UI designer
+                    <br>
+                   24 years old, Minsk
+                </div>
+                <div class="banner__lang">
+                    <a class="banner__link" href="#">ru</a>
+                    <a class="banner__link active" href="#">eng</a></div>       
+            </div>
+             <div class="banner__picture"><img src="images/Group2.1.jpg" alt>
+                <img src="images/BSPP2266(1).jpg" alt></div>      
+        </div>                     
+        </section>
+        <section class="about" id="about">
+            <div class="container">
+                <h2 class="about__title">About me</h2>
+                <p class="about__text">
+                    Hi, I'm Denis – UX/UI designer from Minsk.
+                    <br> 
+                    I'm interested in design and everything connected with it.
+                </p>                 
+                <p class="about__text">
+                    I'm studying at courses "Web and mobile design 
+                    <br>
+                    interfaces" in IT-Academy
+                </p>
+                <p class="about__text">
+                    Ready to implement excellent projects
+                    <br>
+                     with wonderful people.                 
+                    </p>
+            </div>
+        </section>
+        <section class="skills" id="skills">
+            <div class="container">
+                <h2 class="skills__title">Skills</h2>
+                <p class="skills__text">I work in such programs as</p>
+                <ul class="skills__list">
+                    <li class="skills__item">
+                        <img class="skills__img" src="images/PS.jpg" alt>
+                        <p class="skills__sign" >
+                            Adobe 
+                            <br>
+                            Photoshop
+                        </p>
+                        <!-- <img class="skills__stars" src="images/Group5(4).jpg" alt> -->
+                        <span class="skills__raiting">
+                        <span class="star star_active"></span>
+                        <span class="star star_active"></span>
+                        <span class="star star_active"></span>
+                        <span class="star star_active"></span>
+                        <span class="star"></span></span>
+                    </li>
+                    <li class="skills__item">
+                    <img class="skills__img" src="images/AI.jpg" alt>
+                    <p class="skills__sign" >
+                        Adobe 
+                        <br>
+                        Illustrator
+                    </p>
+                    <!-- <img class="skills_stars" src="images/Group3.jpg" alt> -->
+                    <span class="skills__raiting">
+                    <span class="star star_active"></span>
+                    <span class="star star_active"></span>
+                    <span class="star star_active"></span>
+                    <span class="star"></span>
+                    <span class="star"></span></span>                
+                    </li>
+                    <li class="skills__item">
+                        <img class="skills__img" src="images/AE.jpg" alt>
+                        <p class="skills__sign" >
+                            Adobe 
+                            <br>
+                            After Effects
+                        </p>
+                        <!-- <img class="skills__stars" src="images/Group5(4).jpg" alt> -->
+                        <span class="skills__raiting">
+                        <span class="star star_active"></span>
+                        <span class="star star_active"></span>
+                        <span class="star star_active"></span>
+                        <span class="star star_active"></span>
+                        <span class="star"></span></span>
+                        </li>
+                    <li class="skills__item">
+                        <img class="skills__img" src="images/figma2.png" alt>
+                        <p class="skills__sign" >
+                        Figma
+                        </p>
+                        <!-- <img class="skills__stars" src="images/Group5(4).jpg" alt> -->
+                        <span class="skills__raiting">
+                        <span class="star star_active"></span>
+                        <span class="star star_active"></span>
+                        <span class="star star_active"></span>
+                        <span class="star star_active"></span>
+                        <span class="star"></span></span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="portfolio" id="portfolio">
+                        <div class="container">
+                        <h2 class="portfolio__title">Portfolio</h2>
+                <ul class="portfolio__list">
+                    <li class="portfolio__item">
+                        <img class="portfolio__img" src="images/sloy8.jpg" alt>
+                        <a class="portfolio__link" href="#">
+                            Online fashion store - Homepage
+                        </a>
+                    </li>
+                    <li class="portfolio__item">
+                        <img class="portfolio__img" src="images/reebok_web.jpg" alt>
+                        <a class="portfolio__link" href="#">
+                            Reebok Store - Concept
+                        </a>
+                    </li>
+                    <li class="portfolio__item">
+                        <img class="portfolio__img" src="images/reebok_web1.jpg" alt>
+                        <a class="portfolio__link" href="#">
+                            Braun Landing Page - Concept
+                        </a>
+
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="footer" id="footer">
+    <div class="container">
+        <h2 class="contacts__title">Contacts</h2>
+        <p class="contacts__text">
+            Want to know more or just chat?
+            <br> 
+            You are welcome!</p>
+        <a class="contacts__button" href="mailto:example@mail.com">
+            Send message
+        </a>
+        <ul class="contacts__socials">
+           <li>
+               <img src="images/Group1.svg" alt>
+           </li>
+           <li>
+                <img src="images/Group2.svg" alt>
+           </li>
+           <li>
+                <img src="images/Group9.svg" alt>
+           </li>
+           <li>
+                <img src="images/Group10.svg" alt>
+           </li> 
+        </ul>
+            <span class="contacts__epilog">
+                Like me on
+                <br>
+                LinkedIn, Instagram, Behance, Dribble
+            </span>
+    </div>            
+          </footer>
+        <script src="script/script.js"></script>
+</body>
 </html>
