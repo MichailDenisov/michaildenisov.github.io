@@ -69,8 +69,16 @@ nav div {
 	font-size: 20pt;
 	margin-top: 5px;
 	margin-bottom: 5px;
-	
 }
+ nav a:link, nav a:visited {  
+	color: darkred; 
+	text-decoration: none;
+}
+nav a:active, nav a:hover {
+	color: darksalmon; 
+	text-decoration: none;
+}
+/* nav a:target {border: 1px solid red} 		 */
 table.catalog tr:first-child td {
 	border-top: none;
 }
