@@ -1,6 +1,6 @@
 body {font-family: Arial;
-background-image: linear-gradient(to right top,
-salmon 0%, white 67%, salmon 100%);
+background-image: repeating-linear-gradient(to right,
+white 0px,bisque 5px,white 10px); 
 }
 header {text-align: center;}
 h1 {

@@ -1,6 +1,15 @@
  body {
     margin: 0px;
     counter-reset: ch1; 
+    background-image: 
+    url(../images/bg3.jpg) ,url(../images/bg2.jpg) ,url( ../images/bg1.jpg) ,url(../images/main_bg.jpg) ;
+     background-size: url(../images/main_bg.jpg)contain;
+     /* background-repeat: url(../images/bg3.jpg) ,url(../images/bg2.jpg); */
+      /* background-size: url(../images/bg3.jpg) ,url(../images/bg2.jpg)center ;  */
+    background-size: 60pt, 60pt, 60pt, cover;
+    background-attachment: fixed;
+    background-position: 10pt 144pt ,10pt 76pt ,10pt 8pt;
+    background-repeat: no-repeat;
 } 
  .gallery-item img {width: 100%;}
  a[target=gallery] {font-size: 16pt;}
@@ -13,11 +22,13 @@
     font: bold 42pt Verdana, sans-serif; 
     text-align: right; 
     color: white; 
-    background-color: black;
     margin-top: 8pt; 
     margin-right: 8pt; 
     margin-left: 80pt;
     padding-right: 12pt;
+    background-image: 
+   radial-gradient(closest-side at 25pt 50%,  
+   black, white, black, white, black); 
     /* border-radius: 10pt; */
  }
  main p {font: 12pt Arial, sans-serif;}
